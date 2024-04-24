@@ -1,0 +1,62 @@
+.error
+{
+    color: red;
+}
+#success
+{
+    color: rgb(106, 194, 106);
+    font-weight: 500;
+    font-size: 20px;
+}
+body{
+    background-color: rgb(74, 75, 156);
+}
+#overlay
+{
+    height: 100%;
+    width: 100%;
+}
+form{
+    background-color: rgb(246, 241, 234);
+    max-width: 550px;
+    width: 90%;
+    margin: 17vh auto 0 auto;
+    padding: 40px;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+h1{
+    color: rgb(64, 135, 112);
+    text-align: center;
+}
+label{
+    display: block;
+    margin-bottom: 10px;
+}
+input,textarea
+{
+    width: 100%;
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid gray;
+    box-sizing: border-box;
+    resize: none;
+}
+.center
+{
+    background-color: green;
+    border: 0;
+    color: rgb(229, 235, 240);
+    padding: 8px;
+    width: 200px;
+    border-radius: 8px;
+}
+.error-border
+{
+    border-bottom: 1px solid red;
+}
+.visible
+{
+    visibility: hidden;
+}
